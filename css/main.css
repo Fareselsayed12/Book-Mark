@@ -1,0 +1,58 @@
+h1::after{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    width: 100%;
+    height: 40%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 1s;
+}
+
+h1{
+    position: relative;
+    font-family: "Pacifico", "cursive";
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1:hover::after{
+    height: 80% ;
+}
+
+
+.head-line{
+    background: linear-gradient(90deg, #8bc34a, #b4a64a); /* Green to gold gradient */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;    font-size: 40px;
+font-weight: 500;
+font-family: "Righteous", cursive;
+font-weight: 400;
+font-style: normal;
+}
+
+.icon-1{
+    color: rgba(0, 128, 0, 0.623);
+    font-size: 30px;
+}
+.icon-2{
+    color: rgba(255, 217, 0, 0.726);
+    font-size: 30px;
+}
+.login{
+border-bottom: 2px dotted black;
+border-top: 2px dotted black;
+
+}
+ .form-control:focus{
+    border-color:#d99c39 ;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+.login .btn {
+    background-color: #a03315;
+    color: white;
+}
+body{
+    background-color: #f7ecde;
+}
